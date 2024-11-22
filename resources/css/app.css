@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Simple CSS Reset */
+html {
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in Safari */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+/* Remove default styles for list elements */
+ul, ol {
+    list-style: none;
+}
+
+/* Normalize anchor and button styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+/* Reset table styles */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Normalize images and media */
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Tailwind base line-height fallback */
+body {
+    line-height: 1.5;
+}
+
+/* Ensure forms behave consistently */
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: inherit;
+}
+
+/* Tailwind safe-focus utility */
+:focus {
+    outline: none;
+}
+
+/* Optional: Remove scrollbar on modern browsers */
+body {
+    scrollbar-width: thin;
+    -ms-overflow-style: none; /* IE */
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
