@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\UserSettingsController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\ContextController; // <-- Import MessageController
@@ -14,7 +14,11 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
-    Route::get('/dashboard/profile/edit', [UserProfileController::class, 'edit'])->name('user.edit');
+     // Show the edit profile page
+     Route::get('/settings/edit', [UserSettingsController::class, 'edit'])->name('user.settings.edit');
+    
+     // Handle the profile update request
+    Route::put('/settings/update', [UserSettingsController::class, 'update'])->name('user.settings.update');
     Route::put('/dashboard/profile/update', [UserProfileController::class, 'update'])->name('user.update');
 
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
