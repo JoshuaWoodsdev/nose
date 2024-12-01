@@ -8,7 +8,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
-                        <x-application-logo class="block h-9 w-auto fill-current text-gray-800" />
+                       <h1>(title)</h1>
                     </a>
                 </div>
                 <!-- Navigation Links -->
@@ -16,9 +16,7 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('messages')" :active="request()->routeIs('messages')">
-                        {{ __('Messages') }}
-                    </x-nav-link>
+                    
                     <x-nav-link :href="route('context')" :active="request()->routeIs('context')">
                         {{ __('Context') }}
                     </x-nav-link>

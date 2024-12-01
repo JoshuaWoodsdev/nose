@@ -1,6 +1,9 @@
 
 <x-app-layout>
-    <div class="container mx-auto p-6">
+    <div class="py-12 bg-gray-50">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-xl rounded-xl p-8">
+                <div class="text-gray-700">
         <h2 class="text-3xl font-semibold mb-6">Edit Profile</h2>
 
         <!-- Display success message -->
@@ -51,5 +54,5 @@
                 </button>
             </div>
         </form>
-    </div>
+    </div></div></div>
 </x-app-layout>

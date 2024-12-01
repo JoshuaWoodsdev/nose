@@ -4,6 +4,7 @@
         <h2 class="font-semibold text-2xl text-gray-900 leading-tight">
             {{ __('Profile of ' . $user->name) }}
         </h2>
+        <h2>This should hold user page</h2>
     </x-slot>
 
     <div class="py-12 bg-gray-50">

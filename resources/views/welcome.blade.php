@@ -90,15 +90,30 @@
                     Welcome to NoseIQ
                 </h1>
 
-                <div class="mx-auto mt-5 text-gray-400 md:mt-8 md:max-w-lg md:text-center md:text-xl">NoseIQ is a
-                    platform that simplifies the process of connecting brands with skilled perfumers, enabling them to work
-                    together on everything from concept development to final formulation. Streamlining communication and
-                    manage projects,
-                    NoseIQ fosters creativity and innovation in the fragrance industry.
+                <div class="mx-auto mt-5 text-gray-400 md:mt-8 md:max-w-lg md:text-center md:text-xl">
+
+                   @include('/partials/text')
+
+                </div>  
+
+
+                 @include('partials.mainvideo')
+           
+           
                 </div>
-            </div>
             <!-- End Main Hero Content -->
-        </div>
+
+
+
+   
+
+
+
+
+
+
+            
+      
 
         <div class="viewer-container hidden sm:block">
             <spline-viewer url="https://prod.spline.design/0j9n5eWIc6n5CuxH/scene.splinecode"
@@ -114,120 +129,115 @@
                 <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
 
                     <div class="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-gray-100 sm:rounded-xl"
-                        data-rounded="rounded-xl" data-rounded-max="rounded-full">
-                        <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
-                            data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-                                <path d="M5 8v-3a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-5" />
-                                <circle cx="6" cy="14" r="3" />
-                                <path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5" />
-                            </svg>
-                        </div>
-                        <h4 class="text-xl font-medium text-gray-700">Simple</h4>
-                        <p class="text-base text-center text-gray-500">Each of our plan will provide you and your team
-                            with certifications.</p>
+                    data-rounded="rounded-xl" data-rounded-max="rounded-full">
+                    <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
+                        data-rounded="rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                            <path d="M5 8v-3a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-5" />
+                            <circle cx="6" cy="14" r="3" />
+                            <path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5" />
+                        </svg>
                     </div>
-
-                    <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-                        data-rounded="rounded-xl" data-rounded-max="rounded-full">
-                        <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
-                            data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M18 8a3 3 0 0 1 0 6" />
-                                <path d="M10 8v11a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1v-5" />
-                                <path
-                                    d="M12 8h0l4.524 -3.77a0.9 .9 0 0 1 1.476 .692v12.156a0.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8" />
-                            </svg>
-                        </div>
-                        <h4 class="text-xl font-medium text-gray-700">Market</h4>
-                        <p class="text-base text-center text-gray-500">Send out notifications to all your customers to
-                            keep them engaged.</p>
-                    </div>
-
-                    <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-                        data-rounded="rounded-xl" data-rounded-max="rounded-full">
-                        <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
-                            data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" />
-                                <line x1="12" y1="12" x2="20" y2="7.5" />
-                                <line x1="12" y1="12" x2="12" y2="21" />
-                                <line x1="12" y1="12" x2="4" y2="7.5" />
-                                <line x1="16" y1="5.25" x2="8" y2="9.75" />
-                            </svg>
-                        </div>
-                        <h4 class="text-xl font-medium text-gray-700">Resources</h4>
-                        <p class="text-base text-center text-gray-500">High-quality bundles of awesome tools to help
-                            you out.</p>
-                    </div>
-
-                    <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-                        data-rounded="rounded-xl" data-rounded-max="rounded-full">
-                        <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
-                            data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M8 9l3 3l-3 3" />
-                                <line x1="13" y1="15" x2="16" y2="15" />
-                                <rect x="3" y="4" width="18" height="16" rx="2" />
-                            </svg>
-                        </div>
-                        <h4 class="text-xl font-medium text-gray-700">Community</h4>
-                        <p class="text-base text-center text-gray-500">Developer tools to help grow your application
-                            and keep it up-to-date.</p>
-                    </div>
-
-                    <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-                        data-rounded="rounded-xl" data-rounded-max="rounded-full">
-                        <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
-                            data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <line x1="9.5" y1="11" x2="9.51" y2="11" />
-                                <line x1="14.5" y1="11" x2="14.51" y2="11" />
-                                <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
-                                <path
-                                    d="M7 5h1v-2h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3v1h-10v-1a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3" />
-                            </svg>
-                        </div>
-                        <h4 class="text-xl font-medium text-gray-700">?</h4>
-                        <p class="text-base text-center text-gray-500">The right kind of building blocks to take your
-                            company to the next level.</p>
-                    </div>
-                    <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-                        data-rounded="rounded-xl" data-rounded-max="rounded-full">
-                        <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
-                            data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <line x1="15" y1="5" x2="15" y2="7" />
-                                <line x1="15" y1="11" x2="15" y2="13" />
-                                <line x1="15" y1="17" x2="15" y2="19" />
-                                <path
-                                    d="M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2" />
-                            </svg>
-                        </div>
-                        <h4 class="text-xl font-medium text-gray-700">?</h4>
-                        <p class="text-base text-center text-gray-500">Coupons system to provide special offers and
-                            discounts for your app.</p>
-                    </div>
+                    <h4 class="text-xl font-medium text-gray-700">Ease of Use</h4>
+                    <p class="text-base text-center text-gray-500">Streamlined solutions to simplify your team's workflow.</p>
                 </div>
+                
+                <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
+                    data-rounded="rounded-xl" data-rounded-max="rounded-full">
+                    <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
+                        data-rounded="rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M18 8a3 3 0 0 1 0 6" />
+                            <path d="M10 8v11a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1v-5" />
+                            <path
+                                d="M12 8h0l4.524 -3.77a0.9 .9 0 0 1 1.476 .692v12.156a0.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8" />
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-medium text-gray-700">Customer Engagement</h4>
+                    <p class="text-base text-center text-gray-500">Keep your customers informed and involved effortlessly.</p>
+                </div>
+                
+                <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
+                    data-rounded="rounded-xl" data-rounded-max="rounded-full">
+                    <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
+                        data-rounded="rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" />
+                            <line x1="12" y1="12" x2="20" y2="7.5" />
+                            <line x1="12" y1="12" x2="12" y2="21" />
+                            <line x1="12" y1="12" x2="4" y2="7.5" />
+                            <line x1="16" y1="5.25" x2="8" y2="9.75" />
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-medium text-gray-700">Toolkits</h4>
+                    <p class="text-base text-center text-gray-500">Premium tools to elevate your development process.</p>
+                </div>
+                
+                <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
+                    data-rounded="rounded-xl" data-rounded-max="rounded-full">
+                    <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
+                        data-rounded="rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M8 9l3 3l-3 3" />
+                            <line x1="13" y1="15" x2="16" y2="15" />
+                            <rect x="3" y="4" width="18" height="16" rx="2" />
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-medium text-gray-700">Networking</h4>
+                    <p class="text-base text-center text-gray-500">Join a community that supports your growth and innovation.</p>
+                </div>
+                
+                <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
+                    data-rounded="rounded-xl" data-rounded-max="rounded-full">
+                    <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
+                        data-rounded="rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <line x1="9.5" y1="11" x2="9.51" y2="11" />
+                            <line x1="14.5" y1="11" x2="14.51" y2="11" />
+                            <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
+                            <path
+                                d="M7 5h1v-2h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3v1h-10v-1a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3" />
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-medium text-gray-700">Innovative Ideas</h4>
+                    <p class="text-base text-center text-gray-500">Fuel your app with creative building blocks for success.</p>
+                </div>
+                
+                <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
+                    data-rounded="rounded-xl" data-rounded-max="rounded-full">
+                    <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
+                        data-rounded="rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <line x1="4" y1="8" x2="5" y2="8" />
+                            <line x1="4" y1="16" x2="5" y2="16" />
+                            <path d="M20 8h1" />
+                            <path d="M20 16h1" />
+                            <rect x="8" y="4" width="8" height="16" rx="1" />
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-medium text-gray-700">Customizable Options</h4>
+                    <p class="text-base text-center text-gray-500">Adapt your tools to meet every unique requirement.</p>
+                </div>
+                
             </div>
         </section>
         </div>
